@@ -19,3 +19,7 @@ Naming/UncommunicativeMethodParamName:
   MinNameLength: 1
   AllowNamesEndingInNumbers: false
 
+# Near-duplicate of a file from an external package, want to keep changes minimal
+AllCops:
+  Exclude:
+    - 'lib/razorpay/hash_conversions.rb'

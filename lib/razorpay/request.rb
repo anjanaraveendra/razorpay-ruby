@@ -1,4 +1,5 @@
 require 'razorpay/constants'
+require 'razorpay/hash_conversions'
 require 'httparty'
 
 module Razorpay
